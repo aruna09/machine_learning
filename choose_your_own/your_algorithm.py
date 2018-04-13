@@ -31,11 +31,17 @@ plt.show()
 ### your code here!  name your classifier object clf if you want the 
 ### visualization code (prettyPicture) to show you the decision boundary
 
+"""from sklearn.neighbours import KNeighboursClassifier
+clf = KNeighboursClassifier(n_neighbours=3)
+clf.fit(features_train, labels_train)
+print(clf.predict(labels_train))"""
 
 
+"""from sklearn.ensemble import RandomForestClassifier
 
-
-
+clf = RandomForestClassifier(max_depth=2, random_state=0)
+clf.fit(features_train, labels_train)
+print(clf.predict(labels_test))"""
 
 
 try:
